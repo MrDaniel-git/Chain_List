@@ -6,13 +6,13 @@
 int main()
 {
   List *myList=initialization();
-  toDelete(myList);
-  add(myList,13);
-  add(myList,5);
-  add(myList,7);
-  add(myList,20);
-  toDelete(myList);
   
+  toDelete(myList);
+  add(myList,14);
+  add(myList,13);
+  addEnd(myList,16);
+  addEnd(myList,17);
+  addMid(myList,15);
   seeList(myList);
   
   return 0;
